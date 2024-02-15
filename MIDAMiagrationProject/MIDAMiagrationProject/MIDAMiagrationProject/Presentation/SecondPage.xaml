@@ -1,0 +1,27 @@
+﻿<Page x:Class="MIDAMiagrationProject.Presentation.SecondPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:local="using:MIDAMiagrationProject.Presentation"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      xmlns:uen="using:Uno.Extensions.Navigation.UI"
+      xmlns:utu="using:Uno.Toolkit.UI"
+      xmlns:um="using:Uno.Material"
+      Background="{ThemeResource BackgroundBrush}">
+
+
+  <Page.Resources>
+    
+  </Page.Resources>
+
+
+  <utu:Card HeaderContent="Outlined card" Style="{StaticResource OutlinedCardStyle}">
+    <utu:Card.HeaderContentTemplate>
+      <DataTemplate>
+        <Grid>
+          
+        </Grid>
+      </DataTemplate>
+      </utu:Card.HeaderContentTemplate>
+  </utu:Card>
+</Page>

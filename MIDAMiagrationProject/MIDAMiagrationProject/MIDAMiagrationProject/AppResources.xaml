@@ -1,0 +1,61 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+          xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+  <ResourceDictionary.MergedDictionaries>
+    <!-- Load WinUI resources -->
+    <XamlControlsResources xmlns="using:Microsoft.UI.Xaml.Controls" />
+    <MaterialToolkitTheme xmlns="using:Uno.Toolkit.UI.Material"
+      ColorOverrideSource="ms-appx:///MIDAMiagrationProject/Styles/ColorPaletteOverride.xaml"
+      FontOverrideSource="ms-appx:///MIDAMiagrationProject/Styles/MaterialFontsOverride.xaml" />
+  
+  </ResourceDictionary.MergedDictionaries>
+   <Color x:Key="IgRedColor">#FC3C44</Color>
+   <Color x:Key="IgGreenColor">#53D769</Color>
+   <Color x:Key="IgBlueColor">#00BFFF</Color>
+   <Color x:Key="IgYellowColor">#FFFF66</Color>
+   <Color x:Key="IgOrangeColor">#FF8C00</Color>
+   <SolidColorBrush x:Key="IgRed" Color="{StaticResource IgRedColor}" />
+   <SolidColorBrush x:Key="IgGreen" Color="{StaticResource IgGreenColor}" />
+   <SolidColorBrush x:Key="IgBlue" Color="{StaticResource IgBlueColor}" />
+   <SolidColorBrush x:Key="IgYellow" Color="{StaticResource IgYellowColor}" />
+  <SolidColorBrush x:Key="IgOrange" Color="{StaticResource IgOrangeColor}" />
+   <SolidColorBrush x:Key="FullWhite" Color="#FFFFFF" />
+ <SolidColorBrush x:Key="LiteGrey" Color="#EBEBF5" />
+ <SolidColorBrush x:Key="Grey" Color="#B3B3B3" />
+ <SolidColorBrush x:Key="DarkGrey" Color="#404040" />
+ <SolidColorBrush x:Key="FullDarkGrey" Color="#282828" />
+ <SolidColorBrush x:Key="LiteBlack" Color="#1C1C1E" />
+ <SolidColorBrush x:Key="SemiBlack" Color="#181818" />
+ <SolidColorBrush x:Key="Black" Color="#121212" />
+ <SolidColorBrush x:Key="FullBlack" Color="#000000" />
+  <ImageBrush
+     x:Key="DarkTexture"
+     ImageSource="D:\WinUI Apps\MIDAMiagrationProject\MIDAMiagrationProject\MIDAMiagrationProject\Assets\BG17.jpg"
+     Opacity="0.1"
+     Stretch="UniformToFill" />
+  <!-- Add resources here -->
+  
+
+ <SolidColorBrush
+     x:Key="BackgroundDarkPrimary"
+     Opacity="0.1"
+     Color="{Binding Source={StaticResource FullBlack}, Path=Color}" />
+   <SolidColorBrush x:Key="BackgroundDarkSecondary" Color="{Binding Source={StaticResource LiteBlack}, Path=Color}" />
+ <SolidColorBrush
+     x:Key="BackgroundDarkAlternatePrimary"
+     Opacity="0.6"
+     Color="{Binding Source={StaticResource DarkGrey}, Path=Color}" />
+ <SolidColorBrush
+     x:Key="CategoryBG"
+     Opacity="0.2"
+     Color="{Binding Source={StaticResource DarkGrey}, Path=Color}" />
+   <SolidColorBrush x:Key="BackgroundDarkAlternateSecondary" Color="{Binding Source={StaticResource Grey}, Path=Color}" />
+
+ <SolidColorBrush x:Key="ForegroundDarkPrimary" Color="{Binding Source={StaticResource LiteGrey}, Path=Color}" />
+ <SolidColorBrush x:Key="ForegroundDarkSecondary" Color="{Binding Source={StaticResource LiteGrey}, Path=Color}" />
+
+ <SolidColorBrush x:Key="ForegroundDarkAlternatePrimary" Color="{Binding Source={StaticResource FullWhite}, Path=Color}" />
+
+ <SolidColorBrush x:Key="ForegroundDarkAlternateSecondary" Color="{Binding Source={StaticResource FullBlack}, Path=Color}" />
+  
+</ResourceDictionary>

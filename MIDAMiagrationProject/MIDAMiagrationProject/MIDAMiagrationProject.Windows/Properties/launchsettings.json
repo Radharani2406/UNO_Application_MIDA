@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "MIDAMiagrationProject.Windows (Unpackaged)": {
+      "commandName": "Project",
+      "nativeDebugging": true
+    },
+    "MIDAMiagrationProject.Windows (Package)": {
+      "commandName": "MsixPackage",
+      "nativeDebugging": true
+    }
+  }
+}
